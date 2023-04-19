@@ -1,5 +1,7 @@
 body{
     background: #631FF2;
+    padding: 0;
+    margin: 0;
 }
 .cabecalho{
     width: 100%;
@@ -9,11 +11,16 @@ body{
 h1{
     font-family: 'Questrial', sans-serif;
     background-color: #1FA7F2;
+    text-align: center;
 }
 p{
     font-family: 'Questrial', sans-serif; 
+    text-align: justify;
 }
 img{
     width: 200px;
     height: 200px;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 5px;
 }
