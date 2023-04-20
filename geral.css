@@ -9,13 +9,17 @@ body{
     background-color: rgb(124, 47, 124);
 }
 h1{
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Tilt Prism';
     background-color: #1FA7F2;
     text-align: center;
+}
+h3{
+    font-family: 'Questrial', sans-serif; 
 }
 p{
     font-family: 'Questrial', sans-serif; 
     text-align: justify;
+    margin: 20px;
 }
 img{
     width: 200px;
