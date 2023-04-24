@@ -1,12 +1,27 @@
+:root{ /*definir cores (ex.: --cor-corpo: 000000 (pra usar tem que colocar "var())*/
+    --cor-moni: #1FA7F2;
+    --cor-cleiton: rgb(73, 221, 73);
+    --cor-bola: black;
+    --cor-mesa: rgb(51, 51, 221);
+}
+* { /* *significa TUDO*/
+    margin: 0;
+    padding: 0;
+}
 body{
-    background: #631FF2;
+    background: #7d54d6;
     padding: 0;
     margin: 0;
 }
-.cabecalho{
+.cabecalho{ 
     width: 100%;
     height: 20%;
     background-color: rgb(124, 47, 124);
+}
+.moni{
+    background-color: var(--cor-moni);
+    display: flex;
+    align-items: center;
 }
 h1{
     font-family: 'Tilt Prism';
@@ -33,4 +48,75 @@ button{
     margin: 20px;
     border-radius: 10%;
     color: #14A3FC;
+}
+.dante{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+.mesa{
+    background-color: var(--cor-mesa);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.face{
+    background-color: var(--cor-cleiton);
+    height: 120px;
+    width: 120px;
+}
+.face_um{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.face_dois{
+    height: 50%;
+}
+.face_dois_um{
+    display: flex;
+    justify-content: end;
+}
+.face_dois_dois{
+    display: flex;
+    align-items: end;
+    height: 100%;
+}
+
+.face_tres{
+    height: 50%;
+}
+.face_tres_um{
+    display: flex;
+    justify-content: end;
+}
+.face_tres_dois{
+    display: flex;
+    align-items: end;
+    height: 100%;
+}
+.face_tres_tres{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+.bolinha{
+    height: 20px;
+    width: 20px;
+    background-color: var(--cor-bola);
+    border-radius: 50%;
+    margin: 8px;
 }
